@@ -467,14 +467,92 @@ a:focus,
 .mu-slide .slick-prev:focus,
 .mu-slide .slick-next:hover,
 .mu-slide .slick-next:focus {
-    color: #4a1b9d;
+    /* color: #4a1b9d; */
 }
 .mu-slide .slick-prev:hover:before,
 .mu-slide .slick-prev:focus:before,
 .mu-slide .slick-next:hover:before,
 .mu-slide .slick-next:focus:before {
-    color: #4a1b9d;
+    /* color: #000; */
 }
+
+
+/*--------------------*/
+/* ABOUT US */
+/*--------------------*/
+
+
+#mu-about {
+	background-color: #fff;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.mu-about-area {
+	display: inline;
+	float: right;
+	padding: 100px 0;
+	width: 100%;
+}
+
+.mu-title {
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 35px;
+	padding: 0 25%;
+}
+
+.mu-title h2 {
+	color: #323232;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.mu-title p {
+
+}
+
+.mu-about-left {
+	display: inline;
+	float: left;
+	padding-right: 15px;
+	width: 100%;
+}
+
+.mu-about-right {
+	display: inline;
+	float: left;
+	padding-left: 15px;
+	width: 100%
+}
+
+.mu-about-right ul {}
+
+.mu-about-right ul li {
+	list-style: none;
+	float: left;
+	margin-bottom: 25px;
+}
+
+.mu-about-right ul li h3 {
+	border-bottom: 3px solid #e5e5e5;
+	color: #323232;
+	font-size: 20px;
+	display: inline-block;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+.mu-about-right p {
+	font-size: 14px;
+}
+
+
+
 
 /*--------------------*/
 /* DOSEN PMB DAN SEBGAIAYA */
@@ -2593,6 +2671,9 @@ a:focus,
 	}
 			
 }
+
+
+
 
 
 @media (max-width: 480px) {
